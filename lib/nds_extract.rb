@@ -46,9 +46,9 @@ dir_names = list_of_directors(source)
 index = 0
 
 while i < dir_names.length do
-  dir_name = dir_names[i]
+  dir_name = dir_names[index]
   total += dir_earnings_hash[dir_name]
-  i += 1
+  index += 1
 end
 
 total
